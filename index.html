@@ -1,7 +1,20 @@
 ---
-layout: page
 title: Constitutive Rhetoric Study
 permalink: /
+description: "A multi-format public study of constitutive rhetoric in secession and restoration movements: Charland across Québec, Alberta 2026, and the US true-America framing."
 ---
 <p class="lede">{{ site.tagline }}</p>
-<p>Site scaffolding in place. Format pages are in progress.</p>
+
+<p>This collection presents the same study in several registers, from a long-form scholarly article to a public essay, a practice brief, and a podcast outline. The through-question: how secessionist and restorationist movements call a “people” into being, and where that rhetorical machinery holds versus where it jams. The three cases are Québec sovereignty, Alberta’s October 19, 2026 referendum, and the United States “true America” framing.</p>
+
+<ul class="card-grid">
+{%- for f in site.data.formats -%}
+  <li><a href="{{ f.url | relative_url }}">
+    <span class="card-title">{{ f.title }}</span>
+    <span class="card-blurb">{{ f.blurb }}</span>
+  </a></li>
+{%- endfor -%}
+</ul>
+
+<h2>About this project</h2>
+<p>The study is authored by Lance Rossi. All writing on this site is a working draft, subject to revision, and every empirical claim traces to a source in the <a href="{{ '/literature-review/' | relative_url }}">Literature Review</a>. See the <a href="{{ '/about/' | relative_url }}">About page</a> for project history, contact, and citation guidance.</p>
