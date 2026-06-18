@@ -1,0 +1,16 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{%- assign page_title = page.title | default: site.title -%}
+{%- assign page_desc = page.description | default: site.description -%}
+{%- assign canonical = page.url | replace: 'index.html', '' | absolute_url -%}
+{%- if page.url == '/' -%}{%- assign og_type = 'website' -%}{%- else -%}{%- assign og_type = 'article' -%}{%- endif -%}
+<title>{% if page.url == '/' %}{{ site.title }}{% else %}{{ page_title }} · {{ site.title }}{% endif %}</title>
+<meta name="description" content="{{ page_desc }}">
+<link rel="canonical" href="{{ canonical }}">
+<meta property="og:title" content="{% if page.url == '/' %}{{ site.title }}{% else %}{{ page_title }}{% endif %}">
+<meta property="og:description" content="{{ page_desc }}">
+<meta property="og:url" content="{{ canonical }}">
+<meta property="og:type" content="{{ og_type }}">
+<meta property="og:site_name" content="{{ site.title }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
