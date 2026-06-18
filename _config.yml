@@ -9,6 +9,9 @@ github_repo: "https://github.com/lancerossiconsulting/constitutive-rhetoric-stud
 
 permalink: pretty
 
+plugins:
+  - jekyll-sitemap
+
 exclude:
   - NOTES.md
   - README.md
