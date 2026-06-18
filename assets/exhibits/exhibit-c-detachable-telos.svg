@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="exC-title exC-desc" font-family="Georgia, 'Times New Roman', serif">
+  <title id="exC-title">Exhibit C — Where the telos detaches</title>
+  <desc id="exC-desc">Alberta polling. On the official question about 35 percent would vote Yes and about 60 percent No. On a plain leave-or-remain framing about 67 percent choose to stay. The gap is the detached telos.</desc>
+  <rect width="720" height="360" fill="#fbfbf9"/>
+  <style>
+    .axis{stroke:#c9c9c5;stroke-width:1}
+    .lbl{fill:#1a1a1a;font-size:14px}
+    .val{fill:#1a1a1a;font-size:14px;font-weight:bold}
+    .cap{fill:#5a5a5a;font-size:12px;font-family:system-ui,sans-serif}
+    .grid{fill:#5a5a5a;font-size:11px;font-family:system-ui,sans-serif}
+  </style>
+
+  <!-- plot area: x 240..680, y 60..300 ; 0..100% -->
+  <!-- gridlines -->
+  <g class="axis">
+    <line x1="240" y1="300" x2="680" y2="300"/>
+    <line x1="240" y1="60" x2="240" y2="300"/>
+  </g>
+  <g>
+    <line x1="240" y1="252" x2="680" y2="252" class="axis"/>
+    <line x1="240" y1="204" x2="680" y2="204" class="axis"/>
+    <line x1="240" y1="156" x2="680" y2="156" class="axis"/>
+    <line x1="240" y1="108" x2="680" y2="108" class="axis"/>
+    <text class="grid" x="234" y="304" text-anchor="end">0</text>
+    <text class="grid" x="234" y="256" text-anchor="end">25</text>
+    <text class="grid" x="234" y="208" text-anchor="end">50</text>
+    <text class="grid" x="234" y="160" text-anchor="end">75</text>
+    <text class="grid" x="234" y="112" text-anchor="end">100%</text>
+  </g>
+
+  <!-- Bar group 1: official question -->
+  <text class="lbl" x="240" y="40">Official ballot question</text>
+  <rect x="270" y="232" width="60" height="68" fill="#c8a99f"/>
+  <text class="val" x="300" y="224" text-anchor="middle">35%</text>
+  <text class="cap" x="300" y="318" text-anchor="middle">Yes</text>
+  <rect x="360" y="184" width="60" height="116" fill="#6e2c2c"/>
+  <text class="val" x="390" y="176" text-anchor="middle">60%</text>
+  <text class="cap" x="390" y="318" text-anchor="middle">No</text>
+
+  <!-- Bar group 2: plain framing -->
+  <rect x="500" y="172" width="60" height="128" fill="#6e2c2c"/>
+  <text class="val" x="530" y="164" text-anchor="middle">67%</text>
+  <text class="cap" x="530" y="318" text-anchor="middle">Stay</text>
+  <rect x="590" y="228" width="60" height="72" fill="#c8a99f"/>
+  <text class="val" x="620" y="220" text-anchor="middle">30%</text>
+  <text class="cap" x="620" y="318" text-anchor="middle">Leave</text>
+  <text class="cap" x="575" y="340" text-anchor="middle">Plain “leave or stay” framing</text>
+
+  <text class="cap" x="240" y="354">Source: Angus Reid Institute, 2026. Figures approximate.</text>
+</svg>

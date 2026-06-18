@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 240" role="img" aria-labelledby="exB-title exB-desc" font-family="Georgia, 'Times New Roman', serif">
+  <title id="exB-title">Exhibit B — The vector spectrum</title>
+  <desc id="exB-desc">A horizontal spectrum from forward-pointing sovereignty to backward-pointing restoration: Québec at the forward end, Alberta in the hybrid middle, the US true-America framing at the restoration end.</desc>
+  <rect width="720" height="240" fill="#fbfbf9"/>
+  <style>
+    .lbl{fill:#1a1a1a;font-size:16px}
+    .cap{fill:#5a5a5a;font-size:12px;font-family:system-ui,sans-serif}
+    .end{fill:#6e2c2c;font-size:13px;font-family:system-ui,sans-serif}
+  </style>
+  <defs>
+    <marker id="ahb" markerWidth="11" markerHeight="11" refX="8" refY="5.5" orient="auto">
+      <path d="M0,0 L11,5.5 L0,11 z" fill="#6e2c2c"/>
+    </marker>
+  </defs>
+
+  <text class="end" x="40" y="60" text-anchor="start">FORWARD · found a new sovereign</text>
+  <text class="end" x="680" y="60" text-anchor="end">BACKWARD · restore a stolen one</text>
+
+  <line x1="40" y1="120" x2="680" y2="120" stroke="#6e2c2c" stroke-width="2" marker-start="url(#ahb)" marker-end="url(#ahb)"/>
+
+  <!-- markers -->
+  <g>
+    <circle cx="120" cy="120" r="7" fill="#6e2c2c"/>
+    <text class="lbl" x="120" y="158" text-anchor="middle">Québec</text>
+    <text class="cap" x="120" y="176" text-anchor="middle">thick ethnos</text>
+  </g>
+  <g>
+    <circle cx="360" cy="120" r="7" fill="#6e2c2c"/>
+    <text class="lbl" x="360" y="158" text-anchor="middle">Alberta 2026</text>
+    <text class="cap" x="360" y="176" text-anchor="middle">hybrid · grievance, detachable telos</text>
+  </g>
+  <g>
+    <circle cx="600" cy="120" r="7" fill="#6e2c2c"/>
+    <text class="lbl" x="600" y="158" text-anchor="middle">US “true America”</text>
+    <text class="cap" x="600" y="176" text-anchor="middle">restorationist</text>
+  </g>
+</svg>

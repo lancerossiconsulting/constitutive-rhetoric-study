@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" role="img" aria-labelledby="exD-title exD-desc" font-family="Georgia, 'Times New Roman', serif">
+  <title id="exD-title">Exhibit D — The prior-people collision</title>
+  <desc id="exD-desc">A timeline. Numbered Treaties 6, 7, and 8 are signed between 1876 and 1899. Alberta becomes a province in 1905. The referendum is held in 2026. On May 13, 2026 the King's Bench rules the Crown owed a duty to consult First Nations.</desc>
+  <rect width="720" height="260" fill="#fbfbf9"/>
+  <style>
+    .lbl{fill:#1a1a1a;font-size:14px}
+    .yr{fill:#6e2c2c;font-size:14px;font-weight:bold}
+    .cap{fill:#5a5a5a;font-size:11.5px;font-family:system-ui,sans-serif}
+  </style>
+
+  <line x1="40" y1="120" x2="680" y2="120" stroke="#6e2c2c" stroke-width="2"/>
+
+  <!-- node 1 -->
+  <circle cx="110" cy="120" r="7" fill="#6e2c2c"/>
+  <text class="yr" x="110" y="96" text-anchor="middle">1876–1899</text>
+  <text class="lbl" x="110" y="150" text-anchor="middle">Treaties 6, 7, 8</text>
+  <text class="cap" x="110" y="168" text-anchor="middle">a prior people constituted</text>
+
+  <!-- node 2 -->
+  <circle cx="290" cy="120" r="7" fill="#6e2c2c"/>
+  <text class="yr" x="290" y="96" text-anchor="middle">1905</text>
+  <text class="lbl" x="290" y="150" text-anchor="middle">Alberta becomes</text>
+  <text class="lbl" x="290" y="168" text-anchor="middle">a province</text>
+
+  <!-- node 3 -->
+  <circle cx="470" cy="120" r="7" fill="#6e2c2c"/>
+  <text class="yr" x="470" y="96" text-anchor="middle">Oct 19 2026</text>
+  <text class="lbl" x="470" y="150" text-anchor="middle">Referendum</text>
+  <text class="cap" x="470" y="168" text-anchor="middle">separation question</text>
+
+  <!-- node 4 -->
+  <circle cx="640" cy="120" r="7" fill="#6e2c2c"/>
+  <text class="yr" x="640" y="96" text-anchor="middle">May 13 2026</text>
+  <text class="lbl" x="640" y="150" text-anchor="middle">King’s Bench</text>
+  <text class="cap" x="640" y="168" text-anchor="middle">duty to consult; petition quashed</text>
+
+  <text class="cap" x="40" y="232">The prior claim predates the province by a generation, and reaches a court in the year of the vote.</text>
+</svg>
