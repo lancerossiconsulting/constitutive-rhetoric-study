@@ -1,0 +1,22 @@
+title: "Constitutive Rhetoric Study"
+tagline: "How secession and restoration movements constitute a people: Charland across Québec, Alberta 2026, and the US true-America framing."
+description: "A multi-format public study of constitutive rhetoric in secessionist and restorationist movements, extending Charland (1987) across Québec, Alberta's 2026 referendum, and the US true-America framing."
+author: "Lance Rossi"
+email: "lance.rossi@outlook.com"
+url: "https://lancerossiconsulting.github.io"
+baseurl: "/constitutive-rhetoric-study"
+github_repo: "https://github.com/lancerossiconsulting/constitutive-rhetoric-study"
+
+permalink: pretty
+
+exclude:
+  - NOTES.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "page"
