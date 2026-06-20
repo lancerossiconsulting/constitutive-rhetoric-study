@@ -35,3 +35,5 @@ No em-dashes (load-bearing only), no "not X but Y", no leading affirmations, no 
 ## Decisions log
 - D1: Jekyll classic deploy (matches Pratt), no Actions workflow needed.
 - D2: 6-item nav mirrors Pratt; full format set via home cards + footer.
+- D3: Switched deploy from legacy branch-build to GitHub Actions Jekyll workflow. Legacy "Page build failed" gave no diagnostics; Actions surfaced the real errors (custom `exclude:` had dropped Jekyll's default vendor/bundle exclusion; two unquoted YAML values contained colons). ROS-159 build spec explicitly allows "deploy via Actions", so this stays in spec. All fixed; build green, 0/30 internal links broken.
+- D4: Official Alberta Oct 19 2026 question verified as a two-option procedural question (commence a legal process toward a future binding referendum), NOT a 37-word direct-separation question as the brief assumed. Used the verified wording; it strengthens the detachable-telos reading. King's Bench ruling cited Treaties 7 and 8 specifically.
